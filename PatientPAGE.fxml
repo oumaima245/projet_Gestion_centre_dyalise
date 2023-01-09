@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="Medcin" prefHeight="414.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="43.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Line endX="250.0" endY="1.0" layoutX="360.0" layoutY="41.0" opacity="0.58" startX="-369.0" startY="1.0" strokeWidth="0.2" />
+            <Label fx:id="time1" layoutX="208.0" layoutY="16.0" prefHeight="26.0" prefWidth="220.0" text="Informations Personnelles des Patients" textFill="#30363f">
+               <font>
+                  <Font name="System Italic" size="11.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <Pane prefHeight="381.0" prefWidth="611.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="391.0" layoutY="18.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 9;" />
+            <TextField accessibleRole="BUTTON" layoutX="118.0" layoutY="18.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 9;" translateX="1.0" />
+            <Label layoutX="54.0" layoutY="22.0" prefHeight="17.0" prefWidth="78.0" text="Nom :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <TextField layoutX="119.0" layoutY="65.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 9;" />
+            <TextField layoutX="73.0" layoutY="116.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 9;" />
+            <TextField layoutX="265.0" layoutY="116.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 9;" />
+            <TextField layoutX="466.0" layoutY="110.0" prefHeight="38.0" prefWidth="131.0" style="-fx-background-radius: 10;" />
+            <Label layoutX="54.0" layoutY="69.0" prefHeight="17.0" prefWidth="67.0" text="CIN  :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <Label layoutX="15.0" layoutY="120.0" prefHeight="17.0" prefWidth="78.0" text="Numero :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <Label layoutX="222.0" layoutY="120.0" prefHeight="17.0" prefWidth="78.0" text="Email :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <Label layoutX="313.0" layoutY="22.0" prefHeight="17.0" prefWidth="78.0" text="Prenom :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <Label layoutX="418.0" layoutY="120.0" prefHeight="17.0" prefWidth="78.0" text="Adress :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <Label layoutX="54.0" layoutY="169.0" prefHeight="17.0" prefWidth="78.0" text="Genre :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <ComboBox layoutX="119.0" layoutY="165.0" prefHeight="25.0" prefWidth="131.0" />
+            <Label layoutX="287.0" layoutY="169.0" prefHeight="17.0" prefWidth="191.0" text="Numero personne urgence  :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <TextField layoutX="457.0" layoutY="165.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-radius: 9;" />
+            <Line endX="438.0" endY="-143.0" layoutX="167.0" layoutY="351.0" opacity="0.58" startX="-173.0" startY="-143.0" strokeWidth="0.2" />
+            <Button layoutX="6.0" layoutY="217.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="25.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="&lt;" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="300.0" layoutY="217.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Supprimer" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="225.0" layoutY="217.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Modifier" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="149.0" layoutY="217.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Ajouter" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="585.0" layoutY="217.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="25.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="&gt;" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TableView layoutY="252.0" prefHeight="189.0" prefWidth="611.0" style="-fx-border-color: #30363f;">
+               <columns>
+                  <TableColumn text="Nom" />
+                  <TableColumn prefWidth="75.0" text="Prenom" />
+                  <TableColumn prefWidth="64.0" text="CIN" />
+                  <TableColumn prefWidth="84.0" text="Numero" />
+                  <TableColumn prefWidth="79.0" text="Genre" />
+                  <TableColumn prefWidth="116.0" text="email" />
+                  <TableColumn prefWidth="112.0" text="Adress" />
+               </columns>
+            </TableView>
+            <Button layoutX="375.0" layoutY="217.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="72.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Vider" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="270.0" layoutY="69.0" prefHeight="17.0" prefWidth="121.0" text="Date de naissance  :" textFill="#30363f">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow height="0.0" radius="0.0" width="0.0" />
+               </effect>
+            </Label>
+            <DatePicker layoutX="393.0" layoutY="65.0" prefHeight="25.0" prefWidth="131.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

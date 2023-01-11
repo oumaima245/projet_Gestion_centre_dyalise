@@ -76,21 +76,15 @@
                      <children>
                         <HBox prefHeight="25.0" prefWidth="222.0" spacing="45.0">
                            <children>
-                              <Label prefHeight="24.0" prefWidth="222.0" text="nom:" />
-                              <Label prefHeight="24.0" prefWidth="222.0" text="prenom:" />
+                              <Label prefHeight="18.0" prefWidth="235.0" text="Nom d'utilisateur :" />
                            </children>
                         </HBox>
                         <HBox prefHeight="34.0" prefWidth="222.0" spacing="45.0">
                            <children>
-                              <TextField prefHeight="25.0" prefWidth="89.0" />
-                              <TextField prefHeight="27.0" prefWidth="89.0">
-                                 <font>
-                                    <Font name="System Bold" size="12.0" />
-                                 </font>
-                              </TextField>
+                              <TextField prefHeight="26.0" prefWidth="232.0" />
                            </children>
                         </HBox>
-                        <Label prefHeight="12.0" prefWidth="222.0" text="Email ou némuro de mobile:">
+                        <Label prefHeight="12.0" prefWidth="222.0" text="Email :">
                            <VBox.margin>
                               <Insets />
                            </VBox.margin></Label>

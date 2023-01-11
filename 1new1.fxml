@@ -81,12 +81,21 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Button layoutX="65.0" layoutY="268.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Se Connecter" textFill="#fffbfb" />
-            <Button layoutX="65.0" layoutY="342.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Créer nouveau compte" textFill="#ffeded" />
+            <Button layoutX="65.0" layoutY="268.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Se Connecter" textFill="#fffbfb">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button layoutX="65.0" layoutY="342.0" lineSpacing="5.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-background-color: #30363f;" text="Créer nouveau compte" textFill="#ffeded">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
             <Label layoutX="89.0" layoutY="293.0" prefHeight="17.0" prefWidth="113.0" text="Mot de passe oublié ?">
                <font>
                   <Font name="System Italic" size="12.0" />
                </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </Label>
             <Line endX="163.0" layoutX="140.0" layoutY="327.0" opacity="0.58" startX="-136.0" strokeWidth="0.2" />
          </children>
